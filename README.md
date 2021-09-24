@@ -172,7 +172,7 @@ declare class VPups<T extends Record<string, any>> {
 }
 ```
 
-###　事件
+### 事件
 
 vue-pups 监听了来自弹窗组件的 `close`事件，你可以在编写的弹窗实例中，触发`close`事件以关闭弹窗，同时传递回调参数，以供后续判断。
 
@@ -180,7 +180,7 @@ vue-pups 监听了来自弹窗组件的 `close`事件，你可以在编写的弹
 
 
 
-##  兼容性
+## 兼容性
 
 1. vue-pups 源码使用了部分 es6 高阶 API，如果你的程序与之不兼容，可以拉取源码，并将 vite.config.ts 中 @babel/plugin-transform-runtime 部分的注释打开，此后自行编译即可。此操作将增加包的体积。
 2. 或者在你自己的程序中，引入对应 polyfill 进行兼容。一般5/6年内的手机都没问题，就怕超级钉子户。

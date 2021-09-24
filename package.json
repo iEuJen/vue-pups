@@ -1,6 +1,7 @@
 {
   "name": "vue-pups",
   "version": "0.0.0",
+  "description": "实用的应用级弹窗开发工具",
   "author": "ieujen@outlook.com",
   "files": [
     "dist"
